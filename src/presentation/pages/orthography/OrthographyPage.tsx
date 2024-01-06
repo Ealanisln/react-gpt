@@ -54,7 +54,18 @@ export const OrthographyPage = () => {
         placeholder="Escribe aquí lo que deseas"
         disableCorrections
       />
-      
+      {/* <TextMessageBoxFile
+        onSendMessage={handlePost}
+        placeholder="Escribe aquí lo que deseas"
+        
+      /> */}
+
+      {/* <TextMessageBoxSelect
+        onSendMessage={console.log}
+        options={[
+          { id: "1", text: "Que onda" },
+          { id: "2", text: "Aloalo" },
+        ]} */}
     </div>
   );
 };

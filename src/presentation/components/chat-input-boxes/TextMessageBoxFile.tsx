@@ -74,7 +74,7 @@ export const TextMessageBoxFile = ({
           ) : (
             <span className="mr-2">
               {" "}
-              {selectedFile.name.substring(0, 10) + "..."}{" "}
+              {selectedFile.name.substring(0, 8) + "..."}{" "}
             </span>
           )}
           <i className="fa-regular fa-paper-plane"></i>
@@ -83,3 +83,5 @@ export const TextMessageBoxFile = ({
     </form>
   );
 };
+
+export default TextMessageBoxFile;
