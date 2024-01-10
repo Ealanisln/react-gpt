@@ -1,4 +1,5 @@
 export { default as GptMessage } from './chat-bubbles/GptMessage';
+export { default as GptMessageAudio } from './chat-bubbles/GptMessageAudio';
 export { default as GptOrthographyMessage } from './chat-bubbles/GptOrthographyMessage';
 export { default as MyMessage } from './chat-bubbles/MyMessage';
 export { default as TextMessageBox } from './chat-input-boxes/TextMessageBox';
